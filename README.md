@@ -41,10 +41,17 @@ Once the plugin is installed and approved to load, it will appear in the **OP Cr
 
 ![OP Create Dialog](http://prim8.net/files/Wickedlasers/op_create.png)
 
-This operator expects one CHOP as an input, and that CHOP should have 5 channels. The names are not important, but they must be in the order: **X, Y, Red, Green Blue**. The sample rate of your channels should match the laser point rate you wish to send. Valid channel values are:
+This operator expects one CHOP as an input, and that CHOP should have 5 channels. The names are not important, but they must be in the order: **X, Y, Red, Green Blue**. The sample rate of your channels should match the laser point rate you wish to send. 
 
+Range of valid inputs are:
 - X / Y: -1 to +1
 - Red / Green / Blue: 0 to +1
+
+You need a fairly fast computer to get good performance. If the laser is flickering when running TD in the editor, try switching to Perform mode to optimize performance.
+
+**NOTE** there is a bug effecting Perform mode in some versions of TouchDesigner. If your laser does not output in Perform mode you can attach a Null CHOP to the output of Laseros1 and mark it as Cook Type: Always. More details about the bug are available on the [TD forum](https://forum.derivative.ca/t/fixed-c-cookeveryframe-and-perform-mode/141521).
+
+![Perform mode workaround](http://prim8.net/files/Wickedlasers/cook_always.png)
 
 ## Learning Resources
 
