@@ -1,6 +1,6 @@
 # Laser OS TouchDesigner
 
-TouchDesigner is a node based programming environment for creative coding. This plugin provides driver support for LaserCube and LaserDock within TouchDesigner.
+[TouchDesigner](https://derivative.ca/) is a node based programming environment for creative coding. This plugin provides driver support for LaserCube and LaserDock within TouchDesigner.
 
 Currently Supported: Windows 64 bit
 
