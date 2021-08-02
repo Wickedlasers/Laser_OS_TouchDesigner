@@ -1,5 +1,7 @@
 # Laser OS TouchDesigner
 
+*IMPORTANT - the new wifi cube is not yet supported. We do not currently have an ETA.* This driver is for use with the original wired LaserCube.
+
 [TouchDesigner](https://derivative.ca/) is a node based programming environment for creative coding. This plugin provides driver support for LaserCube and LaserDock within TouchDesigner.
 
 Currently Supported: Windows 64 bit
